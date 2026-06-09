@@ -14,12 +14,12 @@ local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 
--- Konfiqurasiya
+-- Konfiqurasiya (Yeni Link ve Key Atandı)
 getgenv().SpecterXConfig = {
     AutoParry = true,
     DistanceOffset = 0.55,
-    CorrectKey = "script-beta2U9YPLGP8",
-    KeyLink = "https://work.ink/2CXm/specter-x-premium"
+    CorrectKey = "57450894362176735-beta",
+    KeyLink = "https://loot-link.com/s?jNgcxhwz"
 }
 
 -- ScreenGui YaradÄ±lmasÄ±
@@ -90,7 +90,7 @@ makeDraggable(KeyTitle, KeyFrame)
 local KeyInput = Instance.new("TextBox")
 KeyInput.Size = UDim2.new(0, 260, 0, 35)
 KeyInput.Position = UDim2.new(0.5, -130, 0, 65)
-KeyInput.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
+KeyInput.BackgroundColor3 = Color3.fromRGB(255, 255, 35)
 KeyInput.Text = ""
 KeyInput.PlaceholderText = "Enter Premium Key Here..."
 KeyInput.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -303,7 +303,7 @@ GetKeyBtn.MouseButton1Click:Connect(function()
         KeyInfo.Text = "Link copied to clipboard!"
         KeyInfo.TextColor3 = Color3.fromRGB(0, 170, 255)
     else
-        KeyInfo.Text = "Link: work.ink/2CXm/specter-x-premium"
+        KeyInfo.Text = "Link: loot-link.com/s?jNgcxhwz"
         KeyInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
     end
 end)
